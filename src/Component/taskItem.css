@@ -1,0 +1,25 @@
+/* Task card styling */
+.task {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid var(--gray-light);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+  }
+  
+  .task h3 {
+    font-size: 1.2rem;
+    color: var(--text-dark);
+  }
+  
+  .task p {
+    color: var(--text-light);
+    font-size: 0.9rem;
+  }
+  
+  
+  
